@@ -1,1 +1,1 @@
-rootProject.name = "mc-miviewer-common"
+rootProject.name = "mc-mi-common"
