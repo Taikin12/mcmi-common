@@ -1,11 +1,11 @@
-# mc-mi-common
+# mcmi-common
 
-Shared library for `mc-cif-viewer` and `mc-mol-viewer`.
+Shared library for `mcmi-cif` and `mcmi-mol`.
 
 - Build: use either plugin's Gradle wrapper, e.g.
-  `../mc-cif-viewer/gradlew -p . test`
+  `../mcmi-cif/gradlew -p . test`
 - Consumers use `includeBuild("../common")` and
-  `implementation("dev.taikin.miviewer:mc-mi-common:0.1.0-SNAPSHOT")`.
+  `implementation("dev.taikin.miviewer:mcmi-common:0.1.0-SNAPSHOT")`.
 - Classes are shaded into each plugin JAR so each plugin still works alone.
 - Package: `dev.taikin.miviewer.common`.
 

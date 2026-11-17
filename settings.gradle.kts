@@ -1,1 +1,1 @@
-rootProject.name = "mc-mi-common"
+rootProject.name = "mcmi-common"
